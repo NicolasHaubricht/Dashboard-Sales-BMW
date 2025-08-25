@@ -1,6 +1,4 @@
 import streamlit as st
-import pandas as pd
-import os
 from app import load_css
 
 load_css("styles/styles.css")

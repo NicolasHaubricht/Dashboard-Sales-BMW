@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import os
-import plotly.express as px
 from pages.home import home
 from script.tratamento import tratar_dados
 

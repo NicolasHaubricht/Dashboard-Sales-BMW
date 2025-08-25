@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
+
 def composicao_ano_modelo(df: pd.DataFrame):
     # Agrupa por ano e modelo
     vendas_ano_modelo = df.groupby(["Year", "Model"], as_index=False).agg({
