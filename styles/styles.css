@@ -1,0 +1,73 @@
+/* Section container for certificates and experiences */
+.section-container {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+/* Section titles */
+.section-title {
+    color: white;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Card styling for certificates and experiences */
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+/* Card title */
+.card h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.4em;
+}
+
+/* Card text */
+.card p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #E0E0E0;
+}
+
+/* Centraliza o texto do cabeçalho */
+.center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.variable-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+.variable-table th {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1.1em;
+    padding: 10px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.variable-table td {
+    color: #E0E0E0;
+    font-size: 1em;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.variable-table tr:last-child td {
+    border-bottom: none;
+}
